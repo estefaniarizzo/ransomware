@@ -42,14 +42,17 @@ cd ransomware-dashboard
 python -m venv venv
 source venv/bin/activate  # en Linux/macOS
 venv\Scripts\activate     # en Windows
+```
 ### 3. Instala dependencias
 ```bash
 
 pip install -r requirements.txt
+```
 ### 4. Ejecuta el servidor
 ```bash
 
 python app.py
+```
 El dashboard estará disponible en http://127.0.0.1:5000.
 ---
 ## 📌 Insight Técnico
